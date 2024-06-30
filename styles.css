@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Tăng độ mờ của bóng */
+    border-radius: 10px; /* Làm tròn góc */
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Tăng độ mờ của bóng khi hover */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#tournaments h2 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#tournaments button {
+    margin-left: 5px;
+    cursor: pointer;
+}
+.form-group button, .form-group input[type="text"] {
+    transition: all 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #4CAF50; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+}
+
+.form-group input[type="text"]:hover {
+    border-color: #4CAF50; /* Màu viền khi hover */
+}
+/* Thêm hiệu ứng cho button */
+.form-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #008CBA; /* Màu nền mặc định */
+    color: white; /* Màu chữ mặc định */
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Làm tròn góc */
+    transition: all 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.form-group button:hover, .form-group button:focus {
+    background-color: #4CAF50; /* Màu nền khi hover hoặc focus */
+}
+
+/* Thêm hiệu ứng cho input field */
+.form-group input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Màu viền mặc định */
+    border-radius: 5px; /* Làm tròn góc */
+    transition: all 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.form-group input[type="text"]:hover, .form-group input[type="text"]:focus {
+    border-color: #4CAF50; /* Màu viền khi hover hoặc focus */
+}
+

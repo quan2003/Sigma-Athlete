@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý sigma</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery-bracket/src/jquery.bracket.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery-bracket/dist/jquery.bracket.min.js"></script>
+    <script type="text/javascript" src="./node_modules/xlsx/dist/xlsx.full.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./node_modules/jquery-bracket/dist/jquery.bracket.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/World_Karate_Federation_logo.svg/1024px-World_Karate_Federation_logo.svg.png" type="image/x-icon"/>
+    <style>
+        .gold {
+    color: gold;
+}
+
+.silver {
+    color: silver;
+}
+
+.bronze {
+    color: #cd7f32; /* Màu đồng */
+}
+
+    </style>
+</head>
+<body>
+    <div id="brackets">
+        <div class="bracket-container" data-bracket-id="1">
+            <h2 class="bracket-title" contenteditable="true">Bracket 1 Title</h2>
+            <div class="my_gracket"></div>
+        </div>
+    </div>
+    <button id="add-bracket">Add Bracket</button>
+    <script type="text/javascript" src="script1.js"></script>
+</body>
+</html>
